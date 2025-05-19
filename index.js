@@ -19,11 +19,16 @@
 // }
 
 
-let a=document.getElementById("smth")
-a.style.color="red"
+// let a=document.getElementById("smth")
+// a.style.color="red"
 
-let b=document.querySelector(".qwerty")
-b.style.color="green"
+// let b=document.querySelector(".qwerty")
+// b.style.color="green"
 
-let c=document.querySelectorAll("li")
-console.log(c);
+// let c=document.querySelectorAll("li")
+// console.log(c);
+
+
+let tab=document.getElementById("age-table")
+tab.getElementsByTagName("label")
+tab.querySelector("td")
