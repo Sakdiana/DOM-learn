@@ -29,6 +29,13 @@
 // console.log(c);
 
 
-let tab=document.getElementById("age-table")
-tab.getElementsByTagName("label")
-tab.querySelector("td")
+// let tab=document.getElementById("age-table")
+// tab.getElementsByTagName("label")
+// tab.querySelector("td")
+
+let a=document.getElementsByTagName("li")
+for(let li of a){
+    let title=li.textContent
+    console.log(title);
+    
+}
