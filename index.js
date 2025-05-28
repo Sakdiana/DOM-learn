@@ -33,9 +33,20 @@
 // tab.getElementsByTagName("label")
 // tab.querySelector("td")
 
-let a=document.getElementsByTagName("li")
-for(let li of a){
-    let title=li.textContent
-    console.log(title);
+// let a=document.getElementsByTagName("li")
+// for(let li of a){
+//     let title=li.textContent
+//     console.log(title);
     
-}
+// }
+
+
+
+let input=document.getElementById("myInput")
+console.log(input.getAttribute("type"))
+input.setAttribute("value",'hush')
+console.log(input.getAttribute('value'));
+
+
+
+
