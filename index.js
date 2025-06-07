@@ -42,11 +42,21 @@
 
 
 
-let input=document.getElementById("myInput")
-console.log(input.getAttribute("type"))
-input.setAttribute("value",'hush')
-console.log(input.getAttribute('value'));
+// let input=document.getElementById("myInput")
+// console.log(input.getAttribute("type"))
+// input.setAttribute("value",'hush')
+// input.removeAttribute('value')
+// console.log(input.getAttribute('value'));
 
 
 
 
+// let div=document.createElement('div')
+// div.className='alert'
+// div.innerHTML="<strong> Hi everyone! </strong> Вы прочитали важное сообщение."
+// document.body.append(div)
+
+
+
+ div.insertAdjacentHTML('beforebegin', '<p>Привет</p>');
+  div.insertAdjacentHTML('afterend', '<p>Пока</p>');
