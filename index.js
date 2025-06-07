@@ -58,5 +58,19 @@
 
 
 
- div.insertAdjacentHTML('beforebegin', '<p>Привет</p>');
-  div.insertAdjacentHTML('afterend', '<p>Пока</p>');
+//  div.insertAdjacentHTML('beforebegin', '<p>Привет</p>');
+//   div.insertAdjacentHTML('afterend', '<p>Пока</p>');
+
+
+//  модальное окно 
+
+
+let burger=document.getElementById('burger')
+let dropdown=document.getElementById('dropdown')
+
+
+burger.addEventListener('click',()=>{
+    dropdown.classList.toggle('hidden')
+     dropdown.classList.toggle('show');
+})
+
